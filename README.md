@@ -4,8 +4,8 @@ Finite element analysis using deal.II library of c++</br>
 1. Consider the following differential equation of elastostatics, in strong form:</br>
 Find u satisfying(E A u,x),x+f A= 0,in (0, L),for the following sets of boundary conditions and forcing function ( ̄fandˆfare constants):</br>
 (i)u(0) =g1,u(L) =g2,f= ̄f x,</br>
-(ii)u(0) =g1,EAu,x=hatx=L,f= ̄f x,</br>
-(iii)u(0) =g1,u(L) =g2,f=ˆf x(L−x)</br>
+(ii)u(0) =g1,EAu,x=hatx=L,f= ̄f x,
+(iii)u(0) =g1,u(L) =g2,f=ˆf x(L−x)
 (iv)u(0) =g1,EAu,x=hatx=L,f=ˆf x(L−x)whereE= 1011Pa,A= 10−4m2, ̄f= 1011Nm−4,ˆf= 1012Nm−5,L= 0.1 m,g1= 0,g2= 0.001 m, andh= 106N.
 
 2. Consider (again) the following differential equation of elastostatics, in strong form:
