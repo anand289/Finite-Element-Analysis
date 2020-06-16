@@ -1,7 +1,7 @@
 # Finite-Element-Analysis
 Finite element analysis using deal.II library of c++</br>
 
-1. Consider the following differential equation of elastostatics, in strong form:
+1. Consider the following differential equation of elastostatics, in strong form:</br>
 Find u satisfying(E A u,x),x+f A= 0,in (0, L),for the following sets of boundary conditions and forcing function ( ̄fandˆfare constants):
 (i)u(0) =g1,u(L) =g2,f= ̄f x,
 (ii)u(0) =g1,EAu,x=hatx=L,f= ̄f x,
@@ -26,11 +26,11 @@ with the following boundary conditions using the specified meshes and linear bas
 Use  ̄κ= 385watt.m−1K−1, whereκij=  ̄κδij.  
 Assumej= 0 watt.m−2on all edges/surfaces where no temperature/fluxconditions are specified.
 
-  1.  (2D Quadrilateral Mesh):  (x∈[0,0.03],y∈[0,0.08], use a 15 x 40 element mesh.)
+  3.1.  (2D Quadrilateral Mesh):  (x∈[0,0.03],y∈[0,0.08], use a 15 x 40 element mesh.)
   Forcing function:f(x,y) = 0 watt.m−3u(x) = 300(1 +c0x) K alongy= 0 m(bottom nodeset)andu(x) = 310(1 + ˆc0x2) K alongy= 0.08 m(top nodeset)
   wherec0=13K.m−1, ˆc0= 8K.m−2.
 
-  2.  (2D Quadrilateral Mesh):  (x∈[0,0.03],y∈[0,0.08], use a 15 x 40 element mesh.)
+  3.2.  (2D Quadrilateral Mesh):  (x∈[0,0.03],y∈[0,0.08], use a 15 x 40 element mesh.)
   Note:You will calculate theL2norm of the error for this problem (the exact solution is given).
   Forcing function:f(x,y) =−10000 watt.m−3u(x) = 100 + (f/4 ̄κ)x2K alongy= 0 m(bottom nodeset);u(x) = 100 + (f/(4 ̄κ))(x2+ 0.0064) K alongy= 0.08 m(top nodeset);u(y) = 100 + (f/(4 ̄κ))y2K alongx= 0 m(left nodeset);
   u(y) = 100 + (f/(4 ̄κ))(y2+ 0.0009) K alongx= 0.03 m(right nodeset).
