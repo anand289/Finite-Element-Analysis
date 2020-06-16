@@ -1,5 +1,5 @@
 # Finite-Element-Analysis
-Finite element analysis using deal.II library of c++
+Finite element analysis using deal.II library of c++</br>
 
 1. Consider the following differential equation of elastostatics, in strong form:
 Find u satisfying(E A u,x),x+f A= 0,in (0, L),for the following sets of boundary conditions and forcing function ( ̄fandˆfare constants):
